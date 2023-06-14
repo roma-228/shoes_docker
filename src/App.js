@@ -25,7 +25,7 @@ class App extends Component {
       },
       favorites: [],
       categories: [],
-      currency: "€",
+      currency: "₴",
       displayedProducts: products.map((product) => product.id),
       productsSortBy: "default",
       productsFilterSliderValues: [0, 180],
